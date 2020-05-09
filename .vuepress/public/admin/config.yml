@@ -7,9 +7,9 @@ public_folder: ".vuepress/dist/"
 media_folder: ".vuepress/dist/assets/img"
 
 collections:
-  - name: "doc"
-    label: "Doc"
-    folder: "docs"
+  - name: "post"
+    label: "Post"
+    folder: "blog"
     create: true
     slug: "{{slug}}"
     fields:
