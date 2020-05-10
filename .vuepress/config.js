@@ -1,12 +1,5 @@
 module.exports = {
     title: "Jon Vinson Info",
-    locales: {
-        '/': {
-            lang: 'de-DE',
-            title: 'JVWeb',
-            description: 'All the info on Jon Vinson you can use.'
-        }
-    },
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
