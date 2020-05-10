@@ -1,10 +1,10 @@
 module.exports = {
-    title: "VuePress Deploy",
+    title: "Jon Vinson Info",
     locales: {
         '/': {
             lang: 'de-DE',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            title: 'JVWeb',
+            description: 'All the info on Jon Vinson you can use.'
         }
     },
     head: [
@@ -21,20 +21,16 @@ module.exports = {
     ],
     serviceWorker: true,
     themeConfig: {
-        docsDir: 'docs',
+        docsDir: 'blog',
         repo: 'electricvino/jv-info',
 
         nav: [{
-                text: 'Start',
-                link: '/docs/',
+                text: 'Blog',
+                link: '/blog/',
             },
             {
                 text: 'Admin',
                 link: '/admin',
-            },
-            {
-                text: 'NetlifyCMS Config Help',
-                link: '/docs/netlifycms-configuration.html',
             }
 
         ]
