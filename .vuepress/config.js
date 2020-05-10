@@ -13,6 +13,10 @@ module.exports = {
         ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
     plugins: [
+        '@vuepress/google-analytics',
+      {
+        'ga': 'UA-53280316-2' // UA-00000000-0
+      },
         '@vuepress/blog',
         {
             id: 'post',
